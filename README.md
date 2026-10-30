@@ -4,21 +4,33 @@
 
 <p align="center">Exercício de entrada de dados e cálculo de diferença em Java.</p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Java-C52E36?style=flat-square" alt="Java">
-  <img src="https://img.shields.io/badge/Console-24272E?style=flat-square" alt="Console">
-  <img src="https://img.shields.io/badge/L%C3%B3gica-24272E?style=flat-square" alt="Lógica">
-</p>
+<p align="center"><img src="assets/docs/tags.svg" alt="Java · Console · Lógica" width="72%"></p>
 
 <p align="center"><a href="#visão-geral">Visão geral</a> &nbsp;·&nbsp; <a href="#recursos">Recursos</a> &nbsp;·&nbsp; <a href="#como-executar">Como executar</a></p>
 
 ---
 
-## Visão geral
+<a id="explore-o-projeto"></a>
+
+![Explore o projeto](assets/docs/section-01.svg)
+
+![Mapa visual dos arquivos e responsabilidades](assets/docs/map.svg)
+
+| Área | O que você encontra | Acesso direto |
+|---|---|---|
+| **Entrada** | Lê quatro números inteiros com Scanner. | [Abrir entrada →](DifencaJava.Java) |
+| **Cálculo** | Calcula A × B − C × D. | [Abrir cálculo →](DifencaJava.Java#L18) |
+| **Resultado** | Apresenta o valor no console. | [Abrir resultado →](DifencaJava.Java#L20) |
+
+<a id="visão-geral"></a>
+
+![Visão geral](assets/docs/section-02.svg)
 
 O programa exemplifica o fluxo essencial de entrada e saída em Java com a classe java.util.Scanner, precedência de operadores aritméticos e liberação adequada do recurso de leitura (sc.close()).
 
-## Recursos
+<a id="recursos"></a>
+
+![Recursos](assets/docs/section-03.svg)
 
 | Recurso | Como funciona |
 |---|---|
@@ -27,7 +39,9 @@ O programa exemplifica o fluxo essencial de entrada e saída em Java com a class
 | Saída padronizada | Exibe o resultado exatamente no formato DIFERENCA = <valor>, compatível com juízes online. |
 | Gestão de recursos | Fecha o objeto Scanner ao término da leitura para evitar vazamento de descritores de entrada. |
 
-## Tecnologias
+<a id="tecnologias"></a>
+
+![Tecnologias](assets/docs/section-04.svg)
 
 - **Java Standard Edition (java.util.Scanner)** para leitura de fluxo de entrada e aritmética inteira.
 
@@ -49,14 +63,16 @@ flowchart LR
 ```text
 JavaDiferenca/
 ├── assets/
-│   └── project-animal.png          Emblema do projeto
+│   └── banner-v2.png               Banner do projeto
 ├── DifencaJava.Java                Código-fonte da classe Main
 └── README.md
 ```
 
 </details>
 
-## Como executar
+<a id="como-executar"></a>
+
+![Como executar](assets/docs/section-05.svg)
 
 1. Clone o repositório:
    ```bash
@@ -69,7 +85,7 @@ JavaDiferenca/
    javac Main.java
    java Main
    ```
-3. Digite quatro números inteiros (ex.: 5 6 7 8) para obter DIFERENCA = -26.
+3. Digite quatro números inteiros (ex.: 5 6 7 8) para obter `O resultado é: -26`.
 
 ---
 
