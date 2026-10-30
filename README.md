@@ -1,8 +1,6 @@
 <p align="center">
-  <img src="assets/project-animal.png" alt="Emblema de JavaDiferenca" width="144" height="144">
+  <img src="assets/banner-v2.png" alt="JavaDiferenca" width="100%">
 </p>
-
-<h1 align="center">JavaDiferenca</h1>
 
 <p align="center">Exercício de entrada de dados e cálculo de diferença em Java.</p>
 
