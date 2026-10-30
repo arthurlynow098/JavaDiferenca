@@ -4,7 +4,7 @@
 
 <p align="center">Exercício de entrada de dados e cálculo de diferença em Java.</p>
 
-<p align="center"><img src="assets/docs/tags.svg" alt="Java · Console · Lógica" width="72%"></p>
+<p align="center"><img src="assets/docs/tags.svg" alt="Java · Console · Lógica" width="100%"></p>
 
 <p align="center"><a href="#visão-geral">Visão geral</a> &nbsp;·&nbsp; <a href="#recursos">Recursos</a> &nbsp;·&nbsp; <a href="#como-executar">Como executar</a></p>
 
@@ -16,11 +16,12 @@
 
 ![Mapa visual dos arquivos e responsabilidades](assets/docs/map.svg)
 
-| Área | O que você encontra | Acesso direto |
-|---|---|---|
-| **Entrada** | Lê quatro números inteiros com Scanner. | [Abrir entrada →](DifencaJava.Java) |
-| **Cálculo** | Calcula A × B − C × D. | [Abrir cálculo →](DifencaJava.Java#L18) |
-| **Resultado** | Apresenta o valor no console. | [Abrir resultado →](DifencaJava.Java#L20) |
+<table width="100%">
+<tr><th align="left">Área</th><th align="left">O que você encontra</th><th align="left">Acesso direto</th></tr>
+<tr><td><strong>Entrada</strong></td><td>Lê quatro números inteiros com Scanner.</td><td><a href="DifencaJava.Java">Abrir entrada →</a></td></tr>
+<tr><td><strong>Cálculo</strong></td><td>Calcula A × B − C × D.</td><td><a href="DifencaJava.Java#L18">Abrir cálculo →</a></td></tr>
+<tr><td><strong>Resultado</strong></td><td>Apresenta o valor no console.</td><td><a href="DifencaJava.Java#L20">Abrir resultado →</a></td></tr>
+</table>
 
 <a id="visão-geral"></a>
 
